@@ -18,7 +18,7 @@ namespace If_else_switch_case
             Console.WriteLine("Diğer bütün meyveler 4 TL");
             Console.Write("Hangi meyveyi satın almak istersiniz ? (Elma/Armut/Çilek/Muz/Diğer) :");
             string secim=Console.ReadLine();
-            string cevap=secim.ToUpper(); // Büyük küçük harf farkını ToUpper ile ortadan kaldırdık
+            string cevap=secim.ToUpper(); // Büyük küçük harf farkını ToUpper ile ortadan kaldırdık.
             //Manavdan alınacak meyvenin fiyatını belirledik
 
             if (cevap=="Elma")
