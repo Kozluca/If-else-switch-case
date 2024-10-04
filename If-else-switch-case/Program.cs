@@ -41,8 +41,7 @@ namespace If_else_switch_case
                 Console.WriteLine("Seçtiğiniz meyve 4 TL");
             }
             Console.ReadLine();
-            //ysadhasda
-            //sdfdflsdf
+            
         }
     }
 }
