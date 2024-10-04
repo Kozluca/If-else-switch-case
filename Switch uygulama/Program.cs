@@ -38,8 +38,8 @@ namespace Switch_uygulama
                 default:
                     Console.WriteLine("Seçtiğiniz meyvenin fiyatı 4 TL");
                     break;
-            }
+            }    // if/else göre yeni meyve eklenmesi daha kolaydır bu yüden  swtich/case bu uygulama için daha iyi bir seçimdir
             Console.ReadLine();
-        }
+        } 
     }
 }
