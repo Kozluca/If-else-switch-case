@@ -19,8 +19,9 @@ namespace Switch_uygulama
             Console.WriteLine("Diğer bütün meyveler 4 TL");
             Console.Write("Hangi meyveyi satın almak istersiniz ? (Elma/Armut/Çilek/Muz/Diğer) :");
             string secim = Console.ReadLine();
+            string cevap = secim.ToUpper();  // Büyük küçük harf farkını ToUpper ile ortadan kaldırdık
             //Manavdan alınacak meyvenin fiyatını belirledik
-            switch (secim)
+            switch (cevap)
             {
                 case "Elma":
                     Console.WriteLine("Seçtiğiniz meyvenin fiyatı 2 TL");

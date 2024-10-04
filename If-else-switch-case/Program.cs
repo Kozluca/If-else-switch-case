@@ -18,21 +18,22 @@ namespace If_else_switch_case
             Console.WriteLine("Diğer bütün meyveler 4 TL");
             Console.Write("Hangi meyveyi satın almak istersiniz ? (Elma/Armut/Çilek/Muz/Diğer) :");
             string secim=Console.ReadLine();
+            string cevap=secim.ToUpper(); // Büyük küçük harf farkını ToUpper ile ortadan kaldırdık
             //Manavdan alınacak meyvenin fiyatını belirledik
 
-            if (secim=="Elma")
+            if (cevap=="Elma")
             {
                 Console.WriteLine("Seçtiğiniz meyvenin fiyatı 2 TL");
             }
-            else if(secim=="Armut")
+            else if(cevap == "Armut")
             {
                 Console.WriteLine("Seçtiğiniz meyvenin fiyatı 3 TL");
             }
-            else if (secim == "Çilek")
+            else if (cevap == "Çilek")
             {
                 Console.WriteLine("Seçtiğiniz meyvenin fiyatı 2 TL");
             }
-            else if (secim == "Muz")
+            else if (cevap == "Muz")
             {
                 Console.WriteLine("Seçtiğiniz meyvenin fiyatı 3 TL");
             }
